@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/labyrinth/static/css/main.be50e03e.css",
+    "main.js": "/labyrinth/static/js/main.0e9c9bb6.js",
+    "static/media/Flag.svg": "/labyrinth/static/media/Flag.37830afdf0ed9506d43d64ee78f677c3.svg",
+    "static/media/Left.svg": "/labyrinth/static/media/Left.842a09d56d154ac53481f2ec7bc65fbe.svg",
+    "static/media/Up.svg": "/labyrinth/static/media/Up.4258c1c32adcba7faf784de0b9763681.svg",
+    "static/media/Down.svg": "/labyrinth/static/media/Down.098cd32c6c52f8eef2340a1883e3e64a.svg",
+    "static/media/Right.svg": "/labyrinth/static/media/Right.2bcee223aa4dcfc476386ba6ff35aa3a.svg",
+    "index.html": "/labyrinth/index.html",
+    "main.be50e03e.css.map": "/labyrinth/static/css/main.be50e03e.css.map",
+    "main.0e9c9bb6.js.map": "/labyrinth/static/js/main.0e9c9bb6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.be50e03e.css",
+    "static/js/main.0e9c9bb6.js"
+  ]
+}
