@@ -1,0 +1,71 @@
+:root {
+  --grid-cell: 8
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  width: 450px;
+  margin-right: 30px;
+}
+
+.board {
+  display: grid;
+  grid-template: repeat(var(--grid-cell), calc(450px / var(--grid-cell) - 5px)) / repeat(var(--grid-cell), 1fr);
+  margin-bottom: 30px;
+  gap: 10px
+}
+
+.moves {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.cell {
+  border: 1px solid #000;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.board__cell {
+  background: rgb(162, 229, 255);
+}
+
+.cell_final {
+  background: rgb(93, 255, 255);
+}
+
+.cell_success  {
+  background: rgb(142, 255, 138);
+}
+
+.cell_fail {
+  background: rgb(255, 139, 139);
+}
+
+.btn {
+  border: 1px solid #000;
+  background: transparent;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  width: 170px;
+}
+
+.sidebar input {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+}
